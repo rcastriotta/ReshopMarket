@@ -31,6 +31,7 @@ const defaultValues = {
 
 const SocialShareBox: React.FC<Props> = ({ className = '', shareUrl = '' }) => {
   const { t } = useTranslation('common');
+
   const [copyText, setCopyText] = useState({
     value: shareUrl,
     copied: false,

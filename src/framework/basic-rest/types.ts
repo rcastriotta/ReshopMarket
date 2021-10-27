@@ -47,7 +47,6 @@ export type Size = {
 export type Category = {
   id: number | string;
   name: string;
-  slug: string;
   details?: string;
   image?: Attachment;
   icon?: string;

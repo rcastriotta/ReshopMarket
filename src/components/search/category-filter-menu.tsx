@@ -98,7 +98,7 @@ function CategoryFilterMenuItem({
           <span
             onClick={onClick}
             className={cn(
-              'text-skin-base capitalize py-0.5 hover:underline cursor-pointer',
+              'text-skin-base capitalize py-0.5 lg:hover:underline cursor-pointer',
               {
                 'font-bold': query?.category === item.id.toString(),
               }

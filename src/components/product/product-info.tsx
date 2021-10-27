@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Button from '@components/ui/button';
 import useWindowSize from '@utils/use-window-size';
 import usePrice from '@framework/product/use-price';
@@ -21,6 +21,7 @@ import SocialShareBox from '@components/ui/social-share-box';
 import { IoArrowRedoOutline, IoHeartOutline } from 'react-icons/io5';
 import Divider from '../ui/divider';
 import ShieldIcon from '@components/icons/shield-icon';
+import { useEffect } from 'react';
 
 interface Props {
   data: Product;
@@ -33,16 +34,16 @@ const ProductInfo: React.FC<Props> = ({
   className = 'w-full flex flex-col col-span-5 xl:col-span-4 xl:ps-2',
   navigateToProductPage,
 }) => {
-  const { closeModal } = useModalAction();
   const { mutate: checkout, isLoading } = useCheckoutMutation();
-  const { addItemToCart, isInCart, getItemFromCart, isInStock } = useCart();
+  const { addItemToCart, isInCart } = useCart();
   const [favorite, setFavorite] = useState<boolean>(false);
   const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
+  const productUrl = useRef('');
   const [addToWishlistLoader, setAddToWishlistLoader] =
     useState<boolean>(false);
   const { t } = useTranslation('common');
   const router = useRouter();
-  const productUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${ROUTES.ITEM}/${data.id}`;
+
   const [shareButtonStatus, setShareButtonStatus] = useState<boolean>(false);
 
   const { price, basePrice, discount } = usePrice(
@@ -61,6 +62,10 @@ const ProductInfo: React.FC<Props> = ({
       showDecimal: true,
     }
   );
+
+  useEffect(() => {
+    productUrl.current = window.location.toString();
+  }, []);
 
   function addToCart() {
     if (data?.isSold) return;
@@ -191,7 +196,7 @@ const ProductInfo: React.FC<Props> = ({
                     ? 'visible opacity-100 top-full'
                     : 'opacity-0 invisible top-[130%]'
                 }`}
-                shareUrl={productUrl}
+                shareUrl={productUrl.current}
               />
             </div>
           </div>
