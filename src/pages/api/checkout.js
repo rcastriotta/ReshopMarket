@@ -3,12 +3,12 @@ import { decodeId } from '../../utils/api';
 import { shippingRates } from '../../utils/api';
 const stripe = require('stripe')(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 const baseURL = process.env.NEXT_PUBLIC_REST_API_ENDPOINT;
-import { getData as getItemData } from './items/[id]';
 
-export async function getData(body) {
-  const { id, affiliate } = body;
-  const { price, name, description, gallery, isSold, shippingFee } =
-    await getItemData(id);
+export default async function handler(req, res) {
+  const { id, affiliate } = req.body;
+  const { price, name, description, gallery, isSold, shippingFee } = await axios
+    .get(`${baseURL}/items/${id}`)
+    .then(({ data }) => data);
   if (isSold) return res.status(400);
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
@@ -49,10 +49,5 @@ export async function getData(body) {
     success_url: `http://localhost:3000/complete-order?itemId=${id}`,
     cancel_url: `http://localhost:3000/item/${id}`,
   });
-  return session.url;
-}
-
-export default async function handler(req, res) {
-  const urlString = await getData(req.body);
-  res.send(urlString);
+  res.send(session.url);
 }

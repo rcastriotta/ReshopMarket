@@ -1,13 +1,14 @@
 {
   "env": {
-    "NEXT_PUBLIC_REST_API_ENDPOINT": "/api",
-    "NEXT_PUBLIC_SITE_URL": "/",
+    "NEXT_PUBLIC_REST_API_ENDPOINT": "https://4c2d-207-174-167-23.ngrok.io/",
+    "NEXT_PUBLIC_SITE_URL": "https://4c2d-207-174-167-23.ngrok.io/",
     "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "sk_test_51IOTppFfPITONSrdZFeyvqfvL4u6ynBz0pPEDVXH6oS6WjRBkkcjLKsVJRxIBPpES4yb6ttVCKR5F9ggkny9GvLO00jPBgwCi4"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_REST_API_ENDPOINT": "/api",
-      "NEXT_PUBLIC_SITE_URL": "/",
-      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "sk_test_51IOTppFfPITONSrdZFeyvqfvL4u6ynBz0pPEDVXH6oS6WjRBkkcjLKsVJRxIBPpES4yb6ttVCKR5F9ggkny9GvLO00jPBgwCi4"    }
+      "NEXT_PUBLIC_REST_API_ENDPOINT": "https://4c2d-207-174-167-23.ngrok.io/",
+      "NEXT_PUBLIC_SITE_URL": "https://4c2d-207-174-167-23.ngrok.io/",
+      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "sk_test_51IOTppFfPITONSrdZFeyvqfvL4u6ynBz0pPEDVXH6oS6WjRBkkcjLKsVJRxIBPpES4yb6ttVCKR5F9ggkny9GvLO00jPBgwCi4"
+    }
   }
 }
