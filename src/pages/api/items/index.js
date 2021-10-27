@@ -1,7 +1,8 @@
 const { v4: uuid } = require('uuid');
 import axios from 'axios';
 import { formatProductArray } from '../../../utils/api';
-export async function getData(params) {
+
+export default async function handler(req, res) {
   const {
     category,
     brand,
@@ -14,7 +15,7 @@ export async function getData(params) {
     sort_by = 1,
     searchId = uuid(),
     limit,
-  } = params;
+  } = req.query;
 
   const { data } = await axios({
     method: 'get',
@@ -72,13 +73,10 @@ export async function getData(params) {
     },
   });
   const { itemsList, count } = data.data.search;
-  return {
+
+  res.send({
     count,
     itemsList: formatProductArray(itemsList),
     pagination: { currentPage: +page, nextPage: +page + 1, searchId },
-  };
-}
-export default async function handler(req, res) {
-  const jsonData = await getData(req.query);
-  res.send(jsonData);
+  });
 }

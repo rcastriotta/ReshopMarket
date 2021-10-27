@@ -3,8 +3,8 @@ import allSizes from './static/sizes.json';
 import allCategories from './static/categories.json';
 import allBrands from './static/brands.json';
 
-export async function getData(params) {
-  const {category = 1} = params;
+export default async function handler(req, res) {
+  const { category = 1 } = req.query;
   const { data } = await axios({
     method: 'get',
     url: 'https://www.mercari.com/v1/api',
@@ -71,10 +71,10 @@ export async function getData(params) {
           (a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase() && 1) || -1
       ),
   };
-  return {sizes, brands, categories: allCategories}
-}
 
-export default async function handler(req, res) {
-  const jsonData = await getData(req.query);
-  res.send(jsonData);
+  res.send({
+    sizes,
+    brands,
+    categories: allCategories,
+  });
 }
