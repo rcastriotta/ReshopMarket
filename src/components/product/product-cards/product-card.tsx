@@ -35,7 +35,7 @@ const ProductCard: FC<ProductProps> = ({ product, className }) => {
       title={name}
     >
       <div className="relative flex-shrink-0">
-        <div className="relative overflow-hidden w-full h-[200px] mx-auto transition duration-200 ease-in-out transform group-hover:scale-105 relative">
+        <div className="relative overflow-hidden w-full h-[200px] mx-auto transition duration-200 ease-in-out transform lg:group-hover:scale-105 relative">
           <Image
             src={image?.thumbnail ?? productPlaceholder}
             alt={name || 'Product Image'}

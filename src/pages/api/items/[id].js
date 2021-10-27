@@ -4,9 +4,8 @@ import {
   formatProductJSON,
   formatProductArray,
 } from '../../../utils/api';
-
-export default async function handler(req, res) {
-  const id = decodeId(req.query.id);
+export async function getData(encodedId) {
+  const id = decodeId(encodedId);
   const { data } = await axios({
     method: 'GET',
     url: `https://www.mercari.com/v1/api?operationName=productQuery&variables=%7B%22id%22%3A%22${id}%22%2C%22limit%22%3A42%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228382241d8311adf850d3eee6f073b7b43c2efe1e094ad5948218366e8325bc25%22%7D%7D`,
@@ -20,8 +19,12 @@ export default async function handler(req, res) {
     item,
     similarItems: { items: similarItems },
   } = data.data;
-  res.send({
+  return {
     ...formatProductJSON(item),
     similarItems: similarItems ? formatProductArray(similarItems) : [],
-  });
+  };
+}
+export default async function handler(req, res) {
+  const jsonData = await getData(req.query.id);
+  res.send(jsonData);
 }

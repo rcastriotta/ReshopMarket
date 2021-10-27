@@ -99,7 +99,7 @@ const ThumbnailCarousel: React.FC<Props> = ({
       </div>
       {/* End of product main slider */}
       <div
-        className={`inline-flex xl:inline flex-shrink-0 overflow-y-auto overflow-x-auto `}
+        className={`flex xl:inline flex-shrink-0 overflow-y-auto overflow-x-auto `}
         id="thumbnail-scroll"
       >
         {gallery?.map((item: any, i: Number) => (
