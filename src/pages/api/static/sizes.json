@@ -1,0 +1,2565 @@
+[
+  {
+    "id": 1,
+    "name": "Women's Fashion",
+    "categoryId": 1,
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 1,
+        "name": "XXS (00)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 2,
+        "name": "XS (0-2)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 3,
+        "name": "S (4-6)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 4,
+        "name": "M (8-10)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 5,
+        "name": "L (12-14)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 6,
+        "name": "XL (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 7,
+        "name": "2XL (20-22)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 160,
+        "name": "3XL (24-26)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 161,
+        "name": "4XL (28-30)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 54,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 162,
+        "name": "5XL (32-34)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 55,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 163,
+        "name": "One Size",
+        "itemSizeGroupId": 1,
+        "displayOrder": 199,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 289,
+        "name": "1X (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 290,
+        "name": "Petite XXS (00)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 57,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 291,
+        "name": "Petite XS (0-2)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 58,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 292,
+        "name": "Petite S (4-6)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 59,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 293,
+        "name": "Petite M (8-10)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 60,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 294,
+        "name": "Petite L (12-14)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 61,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 295,
+        "name": "Petite XL (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 62,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 296,
+        "name": "Petite 1X (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 63,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 297,
+        "name": "Petite 2XL (20-22)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 64,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 298,
+        "name": "Petite 3XL (24-26)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 65,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 299,
+        "name": "Petite 4XL (28-30)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 66,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 300,
+        "name": "Petite 5XL (32-34)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 67,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 301,
+        "name": "Maternity XXS (00)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 68,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 302,
+        "name": "Maternity XS (0-2)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 69,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 303,
+        "name": "Maternity S (4-6)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 70,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 304,
+        "name": "Maternity M (8-10)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 71,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 305,
+        "name": "Maternity L (12-14)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 72,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 306,
+        "name": "Maternity XL (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 73,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 307,
+        "name": "Maternity 1X (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 74,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 308,
+        "name": "Maternity 2XL (20-22)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 75,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 309,
+        "name": "Maternity 3XL (24-26)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 76,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 310,
+        "name": "Maternity 4XL (28-30)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 77,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 311,
+        "name": "Maternity 5XL (32-34)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 78,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 312,
+        "name": "Tall XXS (00)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 79,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 313,
+        "name": "Tall XS (0-2)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 80,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 314,
+        "name": "Tall S (4-6)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 81,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 315,
+        "name": "Tall M (8-10)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 82,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 316,
+        "name": "Tall L (12-14)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 83,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 317,
+        "name": "Tall XL (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 84,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 318,
+        "name": "Tall 1X (16-18)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 85,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 319,
+        "name": "Tall 2XL (20-22)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 86,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 320,
+        "name": "Tall 3XL (24-26)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 87,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 321,
+        "name": "Tall 4XL (28-30)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 88,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 322,
+        "name": "Tall 5XL (32-34)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 89,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 351,
+        "name": "Juniors: XS (0-1)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 90,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 352,
+        "name": "Juniors: S (3-5)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 91,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 353,
+        "name": "Juniors: M (7-9)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 92,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 354,
+        "name": "Juniors: L (11-13)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 93,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 355,
+        "name": "Juniors: XL (15-17)",
+        "itemSizeGroupId": 1,
+        "displayOrder": 94,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Men's Fashion",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 8,
+        "name": "XS (30-32)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 9,
+        "name": "S (34-36)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 10,
+        "name": "M (38-40)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 11,
+        "name": "L (42-44)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 12,
+        "name": "XL (46-48)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 13,
+        "name": "XXL (50-52)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 164,
+        "name": "3XL (54-56) ",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 165,
+        "name": "4XL (58-60) ",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 166,
+        "name": "5XL (62-64) ",
+        "itemSizeGroupId": 2,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 167,
+        "name": "One Size    ",
+        "itemSizeGroupId": 2,
+        "displayOrder": 199,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 332,
+        "name": "Tall 4XL (58-60)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 79,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 333,
+        "name": "Tall 5XL (62-64)",
+        "itemSizeGroupId": 2,
+        "displayOrder": 80,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 340,
+        "name": "Tall M",
+        "itemSizeGroupId": 2,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 341,
+        "name": "Tall L",
+        "itemSizeGroupId": 2,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 342,
+        "name": "Tall XL",
+        "itemSizeGroupId": 2,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 343,
+        "name": "Tall XXL",
+        "itemSizeGroupId": 2,
+        "displayOrder": 54,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 344,
+        "name": "Tall XXXL+",
+        "itemSizeGroupId": 2,
+        "displayOrder": 55,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 345,
+        "name": "Big 1X",
+        "itemSizeGroupId": 2,
+        "displayOrder": 56,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 346,
+        "name": "Big 2X",
+        "itemSizeGroupId": 2,
+        "displayOrder": 57,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 347,
+        "name": "Big 3X",
+        "itemSizeGroupId": 2,
+        "displayOrder": 58,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 348,
+        "name": "Big 4X+",
+        "itemSizeGroupId": 2,
+        "displayOrder": 59,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Adult Pants Size",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 14,
+        "name": "23 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 15,
+        "name": "24 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 16,
+        "name": "25 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 17,
+        "name": "26 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 18,
+        "name": "27 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 19,
+        "name": "28 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 20,
+        "name": "29 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 21,
+        "name": "30 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 22,
+        "name": "31 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 23,
+        "name": "32 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 24,
+        "name": "33 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 25,
+        "name": "34 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 26,
+        "name": "36 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 27,
+        "name": "38 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 28,
+        "name": "40 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 29,
+        "name": "42 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 30,
+        "name": "44 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 31,
+        "name": "46 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 32,
+        "name": "48 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 33,
+        "name": "50 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 34,
+        "name": "52 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 327,
+        "name": "54 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 328,
+        "name": "56 in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 329,
+        "name": "58+ in.",
+        "itemSizeGroupId": 3,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Men's Suit Blazer Size",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 35,
+        "name": "38S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 3,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 36,
+        "name": "40S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 6,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 37,
+        "name": "42S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 9,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 38,
+        "name": "44S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 12,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 39,
+        "name": "48S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 18,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 40,
+        "name": "50S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 21,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 41,
+        "name": "52S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 24,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 42,
+        "name": "54S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 27,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 43,
+        "name": "56S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 30,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 44,
+        "name": "38R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 4,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 45,
+        "name": "40R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 7,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 46,
+        "name": "42R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 10,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 47,
+        "name": "44R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 13,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 48,
+        "name": "48R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 19,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 49,
+        "name": "50R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 22,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 50,
+        "name": "52R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 25,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 51,
+        "name": "54R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 28,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 52,
+        "name": "56R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 31,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 53,
+        "name": "38L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 5,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 54,
+        "name": "40L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 8,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 55,
+        "name": "42L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 11,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 56,
+        "name": "44L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 14,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 57,
+        "name": "48L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 20,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 58,
+        "name": "50L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 23,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 59,
+        "name": "52L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 26,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 60,
+        "name": "54L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 29,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 61,
+        "name": "56L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 32,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 226,
+        "name": "36S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 1,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 227,
+        "name": "36R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 2,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 228,
+        "name": "46S",
+        "itemSizeGroupId": 4,
+        "displayOrder": 15,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 229,
+        "name": "46R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 16,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 230,
+        "name": "46L",
+        "itemSizeGroupId": 4,
+        "displayOrder": 17,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 330,
+        "name": "34R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 0,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 331,
+        "name": "35R",
+        "itemSizeGroupId": 4,
+        "displayOrder": 0,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Women's Shoes",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 62,
+        "name": "5 (35.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 63,
+        "name": "5.5 (36)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 64,
+        "name": "6 (36.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 65,
+        "name": "6.5 (37)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 66,
+        "name": "7 (37.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 67,
+        "name": "7.5 (38)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 68,
+        "name": "8 (38.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 69,
+        "name": "8.5 (39)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 70,
+        "name": "9 (39.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 71,
+        "name": "9.5 (40)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 72,
+        "name": "10 (40.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 73,
+        "name": "10.5 (41)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 74,
+        "name": "11 (41.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 75,
+        "name": "11.5 (42)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 76,
+        "name": "12 (42.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 145,
+        "name": "4 (35)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 146,
+        "name": "4.5 (35)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 323,
+        "name": "12.5 (43)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 324,
+        "name": "13 (43.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 325,
+        "name": "13.5 (44)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 326,
+        "name": "14 & Up (44.5)",
+        "itemSizeGroupId": 5,
+        "displayOrder": 54,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Baby",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 85,
+        "name": "3-6 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 86,
+        "name": "6-9 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 87,
+        "name": "9-12 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 88,
+        "name": "Newborn",
+        "itemSizeGroupId": 6,
+        "displayOrder": 46,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 89,
+        "name": "12-18 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 90,
+        "name": "0-3 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 47,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 92,
+        "name": "24 Months",
+        "itemSizeGroupId": 6,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 93,
+        "name": "One Size",
+        "itemSizeGroupId": 6,
+        "displayOrder": 199,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 94,
+        "name": "Not Specified",
+        "itemSizeGroupId": 6,
+        "displayOrder": 200,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Toddlers",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 95,
+        "name": "2T",
+        "itemSizeGroupId": 7,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 96,
+        "name": "3T",
+        "itemSizeGroupId": 7,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 97,
+        "name": "4T",
+        "itemSizeGroupId": 7,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 98,
+        "name": "5T",
+        "itemSizeGroupId": 7,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 99,
+        "name": "One Size",
+        "itemSizeGroupId": 7,
+        "displayOrder": 199,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 100,
+        "name": "Not Specified",
+        "itemSizeGroupId": 7,
+        "displayOrder": 200,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kids",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 101,
+        "name": "XS (4-5)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 102,
+        "name": "S (6-7)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 103,
+        "name": "M (8)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 104,
+        "name": "L (10-12)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 105,
+        "name": "XL (14-16)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 168,
+        "name": "2XL (18)",
+        "itemSizeGroupId": 8,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 169,
+        "name": "One Size",
+        "itemSizeGroupId": 8,
+        "displayOrder": 199,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Little Kids' Shoes",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 106,
+        "name": "0",
+        "itemSizeGroupId": 9,
+        "displayOrder": 48,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 107,
+        "name": "1",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 108,
+        "name": "1.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 109,
+        "name": "2",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 110,
+        "name": "2.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 111,
+        "name": "3",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 112,
+        "name": "3.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 113,
+        "name": "4",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 114,
+        "name": "4.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 115,
+        "name": "5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 116,
+        "name": "5.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 117,
+        "name": "6",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 118,
+        "name": "6.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 119,
+        "name": "7",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 120,
+        "name": "7.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 121,
+        "name": "8",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 122,
+        "name": "8.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 123,
+        "name": "9",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 124,
+        "name": "9.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 125,
+        "name": "10",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 126,
+        "name": "10.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 127,
+        "name": "11",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 128,
+        "name": "11.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 129,
+        "name": "12",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 130,
+        "name": "12.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 131,
+        "name": "13",
+        "itemSizeGroupId": 9,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 349,
+        "name": "0.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 350,
+        "name": "13.5",
+        "itemSizeGroupId": 9,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Kids' Shoes",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 132,
+        "name": "1",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 133,
+        "name": "1.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 134,
+        "name": "2",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 135,
+        "name": "2.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 136,
+        "name": "3",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 137,
+        "name": "3.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 138,
+        "name": "4",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 139,
+        "name": "4.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 140,
+        "name": "5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 141,
+        "name": "5.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 142,
+        "name": "6",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 143,
+        "name": "6.5",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 144,
+        "name": "7",
+        "itemSizeGroupId": 10,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Men’s Shoes",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 77,
+        "name": "12.5 (45.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 78,
+        "name": "13 (46)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 79,
+        "name": "13.5 (46.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 80,
+        "name": "14 (47)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 81,
+        "name": "14.5 (47.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 82,
+        "name": "15 (48)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 83,
+        "name": "15.5 (48.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 84,
+        "name": "16 (49)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 147,
+        "name": "6 (39)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 148,
+        "name": "6.5 (39.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 149,
+        "name": "7 (40)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 150,
+        "name": "7.5 (40.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 151,
+        "name": "8 (41)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 152,
+        "name": "8.5 (41.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 153,
+        "name": "9 (42)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 154,
+        "name": "9.5 (42.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 155,
+        "name": "10 (43)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 156,
+        "name": "10.5 (43.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 157,
+        "name": "11 (44)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 158,
+        "name": "11.5 (44.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 159,
+        "name": "12 (45)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 49,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 334,
+        "name": "5 (38)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 47,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 335,
+        "name": "5.5 (38.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 48,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 336,
+        "name": "17 (49.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 337,
+        "name": "18 (50)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 338,
+        "name": "19 (50.5)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 339,
+        "name": "20 (51)",
+        "itemSizeGroupId": 11,
+        "displayOrder": 54,
+        "__typename": "ItemSize"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bras",
+    "__typename": "ItemSizeGroup",
+    "sizes": [
+      {
+        "id": 170,
+        "name": "32A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 171,
+        "name": "34A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 172,
+        "name": "36A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 173,
+        "name": "38A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 174,
+        "name": "40A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 175,
+        "name": "42A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 176,
+        "name": "44A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 177,
+        "name": "32B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 178,
+        "name": "34B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 179,
+        "name": "36B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 180,
+        "name": "38B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 181,
+        "name": "40B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 182,
+        "name": "42B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 183,
+        "name": "44B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 184,
+        "name": "32C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 185,
+        "name": "34C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 186,
+        "name": "36C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 187,
+        "name": "38C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 188,
+        "name": "40C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 189,
+        "name": "42C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 190,
+        "name": "44C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 191,
+        "name": "32D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 192,
+        "name": "34D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 193,
+        "name": "36D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 194,
+        "name": "38D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 195,
+        "name": "40D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 196,
+        "name": "42D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 197,
+        "name": "44D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 198,
+        "name": "32E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 199,
+        "name": "34E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 200,
+        "name": "36E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 201,
+        "name": "38E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 202,
+        "name": "40E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 203,
+        "name": "42E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 204,
+        "name": "44E (DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 205,
+        "name": "32F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 206,
+        "name": "34F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 207,
+        "name": "36F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 208,
+        "name": "38F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 209,
+        "name": "40F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 210,
+        "name": "42F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 211,
+        "name": "44F (DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 212,
+        "name": "32G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 213,
+        "name": "34G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 214,
+        "name": "36G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 215,
+        "name": "38G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 216,
+        "name": "40G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 217,
+        "name": "42G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 218,
+        "name": "44G (4D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 219,
+        "name": "32H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 220,
+        "name": "34H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 221,
+        "name": "36H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 222,
+        "name": "38H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 223,
+        "name": "40H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 224,
+        "name": "42H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 225,
+        "name": "44H (5D)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 50,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 231,
+        "name": "28A",
+        "itemSizeGroupId": 12,
+        "displayOrder": 1,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 232,
+        "name": "28B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 2,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 233,
+        "name": "28C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 3,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 234,
+        "name": "28D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 4,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 235,
+        "name": "28E US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 5,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 236,
+        "name": "28F US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 6,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 237,
+        "name": "28G US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 7,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 238,
+        "name": "28H US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 8,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 239,
+        "name": "28I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 9,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 240,
+        "name": "28J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 10,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 241,
+        "name": "28K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 11,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 242,
+        "name": "30A (XX-Small)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 12,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 243,
+        "name": "30B (XX-Small)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 13,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 244,
+        "name": "30C (X-Small)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 14,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 245,
+        "name": "30D (X-Small)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 15,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 246,
+        "name": "30E (30DD US)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 16,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 247,
+        "name": "30F (30DDD US)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 17,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 248,
+        "name": "30G US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 18,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 249,
+        "name": "30H US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 19,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 250,
+        "name": "30I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 20,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 251,
+        "name": "30J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 21,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 252,
+        "name": "30K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 22,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 253,
+        "name": "32AA",
+        "itemSizeGroupId": 12,
+        "displayOrder": 23,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 254,
+        "name": "32I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 51,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 255,
+        "name": "32J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 52,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 256,
+        "name": "32K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 53,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 257,
+        "name": "34I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 54,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 258,
+        "name": "34J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 55,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 259,
+        "name": "34K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 56,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 260,
+        "name": "36I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 57,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 261,
+        "name": "36J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 58,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 262,
+        "name": "36K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 59,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 263,
+        "name": "38I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 60,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 264,
+        "name": "38J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 61,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 265,
+        "name": "38K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 62,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 266,
+        "name": "40I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 63,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 267,
+        "name": "40J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 64,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 268,
+        "name": "40K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 65,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 269,
+        "name": "42I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 66,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 270,
+        "name": "42J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 67,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 271,
+        "name": "42K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 68,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 272,
+        "name": "42I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 69,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 273,
+        "name": "42J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 70,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 274,
+        "name": "42K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 71,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 275,
+        "name": "46B",
+        "itemSizeGroupId": 12,
+        "displayOrder": 72,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 276,
+        "name": "46C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 73,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 277,
+        "name": "46D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 74,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 278,
+        "name": "46E US (46DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 75,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 279,
+        "name": "46F US (46DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 76,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 280,
+        "name": "46G US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 77,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 281,
+        "name": "46H US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 78,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 282,
+        "name": "46I US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 79,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 283,
+        "name": "46J US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 80,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 284,
+        "name": "46K+ US",
+        "itemSizeGroupId": 12,
+        "displayOrder": 81,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 285,
+        "name": "48C",
+        "itemSizeGroupId": 12,
+        "displayOrder": 82,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 286,
+        "name": "48D",
+        "itemSizeGroupId": 12,
+        "displayOrder": 83,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 287,
+        "name": "48E US (48DD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 84,
+        "__typename": "ItemSize"
+      },
+      {
+        "id": 288,
+        "name": "48F US (48DDD)",
+        "itemSizeGroupId": 12,
+        "displayOrder": 85,
+        "__typename": "ItemSize"
+      }
+    ]
+  }
+]
