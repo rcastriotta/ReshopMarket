@@ -112,7 +112,6 @@ export type Product = {
   lastUpdated: String;
   price: number;
   originalPrice?: number;
-  unit: string;
   size?: string;
   condition?: string;
   shippingFee: number;

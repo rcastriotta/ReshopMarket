@@ -41,6 +41,7 @@ const ProductCard: FC<ProductProps> = ({ product, className }) => {
             alt={name || 'Product Image'}
             layout="fill"
             objectFit="cover"
+            unoptimized={true}
             className="object-cover bg-skin-thumbnail"
           />
         </div>

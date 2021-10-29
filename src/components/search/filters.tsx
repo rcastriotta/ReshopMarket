@@ -57,6 +57,27 @@ export const ShopFilters = () => {
         case 'condition':
           d = conditions;
           break;
+        case 'maxPrice':
+          items.push({
+            id: values[0],
+            name: `Under $${+values[0] / 100}`,
+            filterKey: 'maxPrice',
+          });
+          break;
+        case 'minPrice':
+          items.push({
+            id: values[0],
+            name: `Above $${+values[0] / 100}`,
+            filterKey: 'minPrice',
+          });
+          break;
+        case 'keyword':
+          items.push({
+            id: values[0],
+            name: `"${values[0].replace(/(.{20})..+/, '$1…')}"`,
+            filterKey: 'keyword',
+          });
+          break;
       }
       if (!d) return;
       values.forEach((v) => {
@@ -90,9 +111,7 @@ export const ShopFilters = () => {
   const clearFilters = () => {
     router.push({
       pathname,
-      query: {
-        ...(!!query.keyword ? { keyword: query.keyword?.toString() } : {}),
-      },
+      query: {},
     });
   };
 

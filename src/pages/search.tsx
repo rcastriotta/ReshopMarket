@@ -53,9 +53,9 @@ Search.Layout = Layout;
 export const getServerSideProps: GetServerSideProps = async ({
   locale,
   query,
-  
 }) => {
   const queryClient = new QueryClient();
+
   await queryClient.prefetchQuery(
     [API_ENDPOINTS.CATEGORIES, { category: query.category }],
     fetchCategories

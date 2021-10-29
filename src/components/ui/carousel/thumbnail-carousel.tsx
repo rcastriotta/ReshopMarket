@@ -78,6 +78,7 @@ const ThumbnailCarousel: React.FC<Props> = ({
                 layout="fill"
                 objectFit="cover"
                 className="position-relative noselect"
+                unoptimized={true}
               />
             </SwiperSlide>
           ))}
@@ -115,6 +116,7 @@ const ThumbnailCarousel: React.FC<Props> = ({
               alt={`Product thumb gallery ${item.id}`}
               width={100}
               height={100}
+              unoptimized={true}
               className="position-relative noselect"
             />
           </div>

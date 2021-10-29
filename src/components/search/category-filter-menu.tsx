@@ -5,11 +5,14 @@ import { useUI } from '@contexts/ui.context';
 import { useEffect, useMemo, useState } from 'react';
 import Image from '@components/ui/image';
 import { useTranslation } from 'next-i18next';
+import ClipLoader from 'react-spinners/ClipLoader';
 
 function CategoryFilterMenuItem({
   className = 'hover:bg-skin-two border-t border-skin-base first:border-t-0 px-3.5 2xl:px-4 py-3 xl:py-3.5 2xl:py-2.5 3xl:py-3',
   item,
   allCategories,
+  loadingCategory,
+  setLoadingCategory,
   depth = 0,
 }: any) {
   const { t } = useTranslation('common');
@@ -22,17 +25,17 @@ function CategoryFilterMenuItem({
     return checkIfActive(allCategories.find((c: any) => c.id === id).parentId);
   };
 
-  const isActive = query.category
-    ? checkIfActive(parseInt(query.category as string))
-    : false;
+  const isActive = query.category ? checkIfActive(+query.category) : false;
+  const isActiveCategory = query?.category === item.id.toString();
 
   const [isOpen, setOpen] = useState<boolean>(isActive);
-
   useEffect(() => {
     setOpen(isActive);
   }, [isActive]);
 
   const { id, name, icon } = item;
+  const isLoading = loadingCategory === id;
+
   const items = allCategories?.filter((c: any) => c.parentId === id);
 
   const { displaySidebar, closeSidebar } = useUI();
@@ -42,6 +45,7 @@ function CategoryFilterMenuItem({
   }
 
   function onClick() {
+    setLoadingCategory(id);
     if (Array.isArray(items) && !!items.length) {
       toggleCollapse();
     }
@@ -95,17 +99,25 @@ function CategoryFilterMenuItem({
               />
             </div>
           )}
-          <span
-            onClick={onClick}
-            className={cn(
-              'text-skin-base capitalize py-0.5 lg:hover:underline cursor-pointer',
-              {
-                'font-bold': query?.category === item.id.toString(),
-              }
+          <div className="flex space-x-2 items-center">
+            <span
+              onClick={onClick}
+              className={cn(
+                'text-skin-base py-0.5 lg:hover:underline active:underline cursor-pointer space-x-2',
+                {
+                  'font-bold': isActiveCategory,
+                  // 'text-skin-primary': isActiveCategory,
+                }
+              )}
+            >
+              {name}
+            </span>
+            {isLoading && (
+              <div className="mt-1">
+                <ClipLoader size={12} color="#02b290" />
+              </div>
             )}
-          >
-            {name}
-          </span>
+          </div>
 
           {expandIcon && <span className="ms-auto">{expandIcon}</span>}
         </button>
@@ -120,6 +132,8 @@ function CategoryFilterMenuItem({
                   key={`${currentItem.name}${currentItem.id}`}
                   item={currentItem}
                   allCategories={allCategories}
+                  loadingCategory={loadingCategory}
+                  setLoadingCategory={setLoadingCategory}
                   depth={childDepth}
                   className="px-0 border-t border-skin-base first:border-t-0 mx-[10px] bg-transparent"
                 />
@@ -133,6 +147,12 @@ function CategoryFilterMenuItem({
 }
 
 function CategoryFilterMenu({ items, className }: any) {
+  const [loadingCategory, setLoadingCategory] = useState(null);
+  const router = useRouter();
+  const { query } = router;
+  useEffect(() => {
+    setLoadingCategory(null);
+  }, [query]);
   return (
     <ul className={cn(className)}>
       {items
@@ -142,6 +162,8 @@ function CategoryFilterMenu({ items, className }: any) {
             key={`${item.id}-key-${item.id}`}
             allCategories={items}
             item={item}
+            setLoadingCategory={(i: any) => setLoadingCategory(i)}
+            loadingCategory={loadingCategory}
           />
         ))}
     </ul>
