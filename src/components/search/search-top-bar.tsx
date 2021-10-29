@@ -28,7 +28,7 @@ const SearchTopBar = ({ count, isLoading }: any) => {
           {isLoading
             ? '...Loading'
             : `${count > 999 ? '999+' : count} ${t('Results')} ${
-                keyword ? `for "${keyword}"` : ''
+                keyword ? `for "${keyword.toString()}"` : ''
               }`}
         </div>
         <ListBox

@@ -48,7 +48,7 @@ const Search = React.forwardRef<HTMLDivElement, Props>(
           pathname: `${basePath}/search`,
           query: {
             ...restQuery,
-            ...(!!searchText.length ? { keyword: searchText } : {}),
+            ...(!!searchText.length ? { keyword: searchText.trim() } : {}),
           },
         },
         undefined,

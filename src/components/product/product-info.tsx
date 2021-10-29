@@ -8,20 +8,16 @@ import ProductSize from '@components/product/product-size';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'next-i18next';
 import CartIcon from '@components/icons/cart-icon';
-import { IoIosHeart, IoIosHeartEmpty } from 'react-icons/io';
 import TagLabel from '@components/ui/tag-label';
 import LabelIcon from '@components/icons/label-icon';
 import { Product } from '../../framework/basic-rest/types';
 import Text from '@components/ui/text';
 import { useRouter } from 'next/router';
-import { ROUTES } from '@utils/routes';
-import { useModalAction } from '@components/common/modal/modal.context';
 import { useCheckoutMutation } from '@framework/checkout/use-checkout';
 import SocialShareBox from '@components/ui/social-share-box';
 import { IoArrowRedoOutline, IoHeartOutline } from 'react-icons/io5';
 import Divider from '../ui/divider';
 import ShieldIcon from '@components/icons/shield-icon';
-import { useEffect } from 'react';
 
 interface Props {
   data: Product;
@@ -38,14 +34,12 @@ const ProductInfo: React.FC<Props> = ({
   const { addItemToCart, isInCart } = useCart();
   const [favorite, setFavorite] = useState<boolean>(false);
   const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
-  const productUrl = useRef('');
   const [addToWishlistLoader, setAddToWishlistLoader] =
     useState<boolean>(false);
   const { t } = useTranslation('common');
   const router = useRouter();
 
   const [shareButtonStatus, setShareButtonStatus] = useState<boolean>(false);
-
   const { price, basePrice, discount } = usePrice(
     data && {
       amount: data.price,
@@ -63,9 +57,7 @@ const ProductInfo: React.FC<Props> = ({
     }
   );
 
-  useEffect(() => {
-    productUrl.current = window.location.toString();
-  }, []);
+  const shareURL = `${process.env.NEXT_PUBLIC_SITE_URL}/item/${data.id}`;
 
   function addToCart() {
     if (data?.isSold) return;
@@ -196,7 +188,7 @@ const ProductInfo: React.FC<Props> = ({
                     ? 'visible opacity-100 top-full'
                     : 'opacity-0 invisible top-[130%]'
                 }`}
-                shareUrl={productUrl.current}
+                shareUrl={shareURL}
               />
             </div>
           </div>
