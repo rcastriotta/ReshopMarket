@@ -8,12 +8,13 @@ import Seo from '@components/seo/seo';
 import { GetServerSideProps } from 'next';
 
 export default function CheckoutPage() {
+  return <div />;
   return (
     <>
       <Seo
         title="Checkout"
         description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-        path="checkout"
+        path="checkout/[id]"
       />
       <Container className="py-10 2xl:py-12 border-t border-skin-base checkout">
         <div className="flex xl:max-w-screen-xl mx-auto flex-col">
