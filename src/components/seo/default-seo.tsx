@@ -5,10 +5,10 @@ export const DefaultSeo = () => {
   return (
     <NextDefaultSeo
       title={siteSettings.name}
-      titleTemplate={`${siteSettings.name} | %s`}
+      titleTemplate={`%s | ${siteSettings.name}`}
       defaultTitle={siteSettings.name}
       description={siteSettings.description}
-      canonical="https://borobazar.vercel.app/"
+      canonical="https://reshopmarket.com"
       openGraph={{
         type: 'website',
         locale: 'en_IE',
