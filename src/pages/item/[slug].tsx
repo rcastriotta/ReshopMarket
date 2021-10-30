@@ -13,11 +13,6 @@ import Seo from '@components/seo/seo';
 export default function ProductPage() {
   return (
     <>
-      <Seo
-        title="Item information"
-        description="Buy new or used items easily."
-        path="item/[slug]"
-      />
       <Divider />
       <div className="pt-6 lg:pt-7">
         <Container>

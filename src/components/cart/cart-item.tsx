@@ -1,16 +1,11 @@
-import Link from '@components/ui/link';
 import Image from '@components/ui/image';
 import { IoIosCloseCircle } from 'react-icons/io';
 import { useCart } from '@contexts/cart/cart.context';
 import usePrice from '@framework/product/use-price';
 import { ROUTES } from '@utils/routes';
-import { generateCartItemName } from '@utils/generate-cart-item-name';
-import Counter from '@components/ui/counter';
-import { Transition } from '@headlessui/react';
-import orderBy from 'lodash/orderBy';
 import { useRouter } from 'next/router';
 import { useCheckoutMutation } from '@framework/checkout/use-checkout';
-
+import { useUI } from '@contexts/ui.context';
 type CartItemProps = {
   item: any;
 };
@@ -19,6 +14,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
   const { removeItemFromCart } = useCart();
   const { mutate: checkout, isLoading } = useCheckoutMutation();
   const router = useRouter();
+  const { closeDrawer } = useUI();
 
   const { price: totalPrice } = usePrice({
     amount: item?.itemTotal,
@@ -33,6 +29,12 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
   });
   function buyNowPress() {
     checkout({ id: item?.id });
+  }
+  function navigateToProductPage() {
+    closeDrawer();
+    router.push(`${ROUTES.ITEM}/${item.id}`, undefined, {
+      locale: router.locale,
+    });
   }
 
   return (
@@ -60,12 +62,12 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
 
       <div className="mb-2 flex w-full overflow-hidden items-start justify-between">
         <div className="ps-3 md:ps-4 space-y-3">
-          <Link
-            href={`${ROUTES.ITEM}/${item?.id}`}
-            className="block text-skin-base text-13px sm:text-sm lg:text-15px transition-all leading-5 hover:text-skin-primary"
+          <span
+            onClick={navigateToProductPage}
+            className="cursor-pointer block text-skin-base text-13px sm:text-sm lg:text-15px transition-all leading-5 hover:text-skin-primary"
           >
             {item?.name}
-          </Link>
+          </span>
 
           <button
             onClick={buyNowPress}
