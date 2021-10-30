@@ -164,10 +164,10 @@ const ProductInfo: React.FC<Props> = ({
               <Button
                 variant="border"
                 loading={addToCartLoader}
-                className="w-full hover:text-skin-primary"
+                className="w-full hover:text-skin-primary "
                 onClick={addToCart}
               >
-                <CartIcon className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
+                <CartIcon className="text-2xl  md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
                 {t('text-add-to-cart')}
               </Button>
             </div>
@@ -179,7 +179,7 @@ const ProductInfo: React.FC<Props> = ({
                 }`}
                 onClick={handleChange}
               >
-                <IoArrowRedoOutline className="text-2xl md:text-[26px] me-2 transition-all group-hover:text-skin-primary" />
+                <IoArrowRedoOutline className="text-2xl md:text-[26px] me-2 flex-shrink-0 transition-all group-hover:text-skin-primary" />
                 {t('text-share')}
               </Button>
               <SocialShareBox

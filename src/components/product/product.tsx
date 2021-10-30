@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useProductQuery } from '@framework/product/get-product';
 import ThumbnailCarousel from '@components/ui/carousel/thumbnail-carousel';
@@ -8,6 +8,7 @@ import Divider from '../ui/divider';
 import ProductInfo from './product-info';
 import ProductReviewRating from './product-review-rating';
 import RelatedProductFeed from './feeds/related-product-feed';
+import Seo from '@components/seo/seo';
 const ProductSingleDetails: React.FC = () => {
   const router = useRouter();
   const {
@@ -15,6 +16,11 @@ const ProductSingleDetails: React.FC = () => {
   } = router;
 
   const { data, isLoading, error } = useProductQuery(slug as string);
+
+  useEffect(() => {
+    if (data) document.title = data.name;
+  }, [data]);
+
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>ERROR</p>;
 

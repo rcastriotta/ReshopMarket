@@ -96,6 +96,7 @@ const SocialShareBox: React.FC<Props> = ({ className = '', shareUrl = '' }) => {
           variant="solid"
           className="w-full"
           value={shareUrl}
+          readOnly
           inputClassName="px-4 border-skin-base rounded-md focus:outline focus:border-skin-primary"
           {...register('shareLink', {
             pattern: {
