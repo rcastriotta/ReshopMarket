@@ -16,7 +16,7 @@ export default function ProductPage() {
       <Seo
         title="Item information"
         description="Buy new or used items easily."
-        path="item"
+        path="item/[slug]"
       />
       <Divider />
       <div className="pt-6 lg:pt-7">
