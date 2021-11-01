@@ -93,7 +93,7 @@ export const ShopFilters = () => {
     setFilterItems(items);
   }, [data, query]);
 
-  if (isLoading) {
+  if (isLoading && !data) {
     return (
       <div className="block">
         <div className="w-full h-full mt-8">

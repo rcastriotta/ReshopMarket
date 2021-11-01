@@ -34,5 +34,6 @@ export const useCategoriesQuery = (options: CategoriesQueryOptionsType) => {
   >([API_ENDPOINTS.CATEGORIES, options], fetchCategories, {
     refetchOnWindowFocus: false,
     refetchOnMount: false,
+    keepPreviousData: true,
   });
 };
