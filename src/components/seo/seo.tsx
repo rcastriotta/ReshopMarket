@@ -1,10 +1,6 @@
 import { NextSeo, NextSeoProps } from 'next-seo';
 
-interface SeoProps extends NextSeoProps {
-  path: string;
-}
-
-const Seo = ({ title, description, path }: SeoProps) => {
+const Seo = ({ title, description, path, images }: any) => {
   return (
     <NextSeo
       title={title}
@@ -13,7 +9,7 @@ const Seo = ({ title, description, path }: SeoProps) => {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/${path}`,
         title,
         description,
-        images: [
+        images: images || [
           {
             url: '/assets/images/og-image-01.png',
             width: 800,
