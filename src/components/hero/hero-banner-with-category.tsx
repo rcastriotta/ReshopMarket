@@ -28,7 +28,7 @@ const HeroBannerWithCategory: React.FC<Props> = ({
               category={category}
               href={{
                 pathname: ROUTES.SEARCH,
-                query: { category: category.slug },
+                query: { category: category.id },
               }}
               className="border-b border-skin-base last:border-b-0 transition"
               variant="small"

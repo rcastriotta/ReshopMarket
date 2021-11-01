@@ -11,8 +11,6 @@ function CategoryFilterMenuItem({
   className = 'hover:bg-skin-two border-t border-skin-base first:border-t-0 px-3.5 2xl:px-4 py-3 xl:py-3.5 2xl:py-2.5 3xl:py-3',
   item,
   allCategories,
-  loadingCategory,
-  setLoadingCategory,
   depth = 0,
 }: any) {
   const { t } = useTranslation('common');
@@ -34,7 +32,6 @@ function CategoryFilterMenuItem({
   }, [isActive]);
 
   const { id, name, icon } = item;
-  const isLoading = loadingCategory === id;
 
   const items = allCategories?.filter((c: any) => c.parentId === id);
 
@@ -45,7 +42,6 @@ function CategoryFilterMenuItem({
   }
 
   function onClick() {
-    setLoadingCategory(id);
     if (Array.isArray(items) && !!items.length) {
       toggleCollapse();
     }
@@ -112,11 +108,6 @@ function CategoryFilterMenuItem({
             >
               {name}
             </span>
-            {isLoading && (
-              <div className="mt-1">
-                <ClipLoader size={12} color="#02b290" />
-              </div>
-            )}
           </div>
 
           {expandIcon && <span className="ms-auto">{expandIcon}</span>}
@@ -132,8 +123,6 @@ function CategoryFilterMenuItem({
                   key={`${currentItem.name}${currentItem.id}`}
                   item={currentItem}
                   allCategories={allCategories}
-                  loadingCategory={loadingCategory}
-                  setLoadingCategory={setLoadingCategory}
                   depth={childDepth}
                   className="px-0 border-t border-skin-base first:border-t-0 mx-[10px] bg-transparent"
                 />
@@ -147,12 +136,6 @@ function CategoryFilterMenuItem({
 }
 
 function CategoryFilterMenu({ items, className }: any) {
-  const [loadingCategory, setLoadingCategory] = useState(null);
-  const router = useRouter();
-  const { query } = router;
-  useEffect(() => {
-    setLoadingCategory(null);
-  }, [query]);
   return (
     <ul className={cn(className)}>
       {items
@@ -162,8 +145,6 @@ function CategoryFilterMenu({ items, className }: any) {
             key={`${item.id}-key-${item.id}`}
             allCategories={items}
             item={item}
-            setLoadingCategory={(i: any) => setLoadingCategory(i)}
-            loadingCategory={loadingCategory}
           />
         ))}
     </ul>

@@ -56,10 +56,12 @@ export const getServerSideProps: GetServerSideProps = async ({
 }) => {
   const queryClient = new QueryClient();
 
+  /*
   await queryClient.prefetchQuery(
     [API_ENDPOINTS.CATEGORIES, { category: query.category }],
     fetchCategories
   );
+  */
 
   return {
     props: {
