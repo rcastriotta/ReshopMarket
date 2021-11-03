@@ -15,10 +15,7 @@ export default function useBreadcrumb() {
   const [breadcrumbs, setBreadcrumbs] = useState<any>(null);
   useEffect(() => {
     if (router) {
-      const linkPath =
-        router.asPath.indexOf('?') > 0
-          ? router.pathname.split('/')
-          : router.asPath.split('/');
+      const linkPath = router.asPath.split('/').map((lp) => lp.split('?')[0]);
       linkPath.shift();
 
       const pathArray = linkPath.map((path, i) => {
