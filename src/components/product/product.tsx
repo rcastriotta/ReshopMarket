@@ -24,14 +24,14 @@ const ProductSingleDetails: React.FC = () => {
     <>
       <Seo
         title={data?.name}
-        description="Buy new or used items easily."
+        description={data?.description}
         path="item/[slug]"
         images={[
           {
             url: data?.image.original!,
             alt: 'Og Image Alt',
-            width: 800,
-            height: 600,
+            height: 200,
+            width: 200,
           },
         ]}
       />
