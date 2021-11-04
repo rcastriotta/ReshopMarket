@@ -1,5 +1,4 @@
 import { NextSeo, NextSeoProps } from 'next-seo';
-
 const Seo = ({ title, description, path, images }: any) => {
   return (
     <NextSeo
@@ -11,16 +10,10 @@ const Seo = ({ title, description, path, images }: any) => {
         description,
         images: images || [
           {
-            url: '/assets/images/og-image-01.png',
-            width: 800,
-            height: 600,
-            alt: 'Og Image Alt',
-          },
-          {
-            url: '/assets/images/og-image-02.png',
-            width: 900,
+            url: `${process.env.NEXT_PUBLIC_SITE_URL}/assets/images/og-image-01.png`,
+            width: 680,
             height: 800,
-            alt: 'Og Image Alt Second',
+            alt: 'Og Image Alt',
           },
         ],
       }}
