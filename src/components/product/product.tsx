@@ -16,12 +16,27 @@ const ProductSingleDetails: React.FC = () => {
   } = router;
 
   const { data, isLoading, error } = useProductQuery(slug as string);
-  console.log('test mode');
+
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>ERROR</p>;
 
   return (
     <>
+      <Seo
+        title={data?.name}
+        description="Buy new or used items easily."
+        path={`item/${data?.id}`}
+        openGraph={{
+          images: [
+            {
+              url: data?.image.original!,
+              alt: 'Og Image Alt',
+              width: 200,
+              height: 200,
+            },
+          ],
+        }}
+      />
       <div className="flex flex-col items-center pt-6 md:pt-7 pb-2 overflow-hidden">
         <div className="max-w-[1500px] w-full">
           <div className="lg:grid grid-cols-10 gap-7 2xl:gap-8">

@@ -9,31 +9,10 @@ import { API_ENDPOINTS } from '@framework/utils/api-endpoints';
 import { fetchProduct } from '@framework/product/get-product';
 import { QueryClient } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
-import { useProductQuery } from '@framework/product/get-product';
-import { useRouter } from 'next/router';
-import Seo from '@components/seo/seo';
-export default function ProductPage() {
-  const router = useRouter();
-  const {
-    query: { slug },
-  } = router;
-  const { data, isLoading, error } = useProductQuery(slug as string);
 
+export default function ProductPage() {
   return (
     <>
-      <Seo
-        title={data?.name}
-        description={data?.description}
-        path="item/[slug]"
-        images={[
-          {
-            url: data?.image.original!,
-            alt: 'Og Image Alt',
-            height: 200,
-            width: 200,
-          },
-        ]}
-      />
       <Divider />
       <div className="pt-6 lg:pt-7">
         <Container>
@@ -41,7 +20,6 @@ export default function ProductPage() {
           <ProductSingleDetails />
         </Container>
       </div>
-
       <Divider />
     </>
   );
@@ -53,11 +31,9 @@ export const getServerSideProps: GetServerSideProps = async ({
   params,
 }) => {
   const queryClient = new QueryClient();
-  const data = await queryClient.prefetchQuery(
-    [API_ENDPOINTS.PRODUCT, params?.slug],
-    () => fetchProduct(params?.slug as string)
+  await queryClient.prefetchQuery([API_ENDPOINTS.PRODUCT, params?.slug], () =>
+    fetchProduct(params?.slug as string)
   );
-  console.log(data);
 
   return {
     props: {
