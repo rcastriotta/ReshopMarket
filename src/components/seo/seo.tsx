@@ -8,14 +8,16 @@ const Seo = ({ title, description, path, images }: any) => {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/${path}`,
         title,
         description,
-        images: images || [
-          {
-            url: `${process.env.NEXT_PUBLIC_SITE_URL}/assets/images/og-image-01.png`,
-            width: 680,
-            height: 800,
-            alt: 'Og Image Alt',
-          },
-        ],
+        images: Array.isArray(images)
+          ? images
+          : [
+              {
+                url: `${process.env.NEXT_PUBLIC_SITE_URL}/assets/images/og-image-01.png`,
+                width: 680,
+                height: 800,
+                alt: 'Og Image Alt',
+              },
+            ],
       }}
     />
   );
