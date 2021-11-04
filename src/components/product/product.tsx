@@ -24,18 +24,16 @@ const ProductSingleDetails: React.FC = () => {
     <>
       <Seo
         title={data?.name}
-        description="Buy new or used items easily."
+        description={data?.description}
         path={`item/${data?.id}`}
-        openGraph={{
-          images: [
-            {
-              url: data?.image.original!,
-              alt: 'Og Image Alt',
-              width: 200,
-              height: 200,
-            },
-          ],
-        }}
+        images={[
+          {
+            url: data?.image.original!,
+            alt: 'Og Image Alt',
+            width: 200,
+            height: 200,
+          },
+        ]}
       />
       <div className="flex flex-col items-center pt-6 md:pt-7 pb-2 overflow-hidden">
         <div className="max-w-[1500px] w-full">
