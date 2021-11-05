@@ -8,11 +8,7 @@ import Seo from '@components/seo/seo';
 export default function SignInPage() {
   return (
     <>
-      <Seo
-        title="Sign In"
-        description="Buy new or used items easily."
-        path="signin"
-      />
+      <Seo title="Sign In" path="signin" />
       <Divider />
       <div className="flex justify-center items-center">
         <div className="py-12 sm:py-16 lg:py-20">

@@ -21,11 +21,7 @@ export default function Search() {
 
   return (
     <>
-      <Seo
-        title="Search"
-        description="Buy new or used items easily."
-        path="search"
-      />
+      <Seo title="Search" path="search" />
       <Divider />
       <Container>
         <Element name="grid" className="flex pt-7 lg:pt-11 pb-16 lg:pb-20">

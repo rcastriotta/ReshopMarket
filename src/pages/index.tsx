@@ -15,11 +15,7 @@ import Divider from '@components/ui/divider';
 export default function Home() {
   return (
     <>
-      <Seo
-        title="Find anything"
-        description="Buy new or used items easily."
-        path="/"
-      />
+      <Seo title="New and used items" path="/" />
       <HeroBannerCard
         banner={heroBanner}
         className="hero-banner-six min-h-[400px] md:min-h-[460px] lg:min-h-[500px] xl:min-h-[650px] py-20 py:pt-24 mb-5 2xl:bg-center"

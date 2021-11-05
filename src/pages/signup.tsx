@@ -8,11 +8,7 @@ import Divider from '@components/ui/divider';
 export default function SignInPage() {
   return (
     <>
-      <Seo
-        title="Sign Up"
-        description="Buy new or used items easily."
-        path="signup"
-      />
+      <Seo title="Sign Up" path="signup" />
       <Divider />
       <div className="flex justify-center items-center">
         <div className="py-16 lg:py-20">

@@ -19,11 +19,7 @@ export default function TermsPage() {
   const { t } = useTranslation('about');
   return (
     <>
-      <Seo
-        title="About"
-        description="Buy new or used items easily."
-        path="about-us"
-      />
+      <Seo title="About" path="about-us" />
       {/* End of seo */}
       <div
         className="flex justify-center h-[250px] lg:h-96 2xl:h-[500px] w-full bg-cover bg-no-repeat bg-center"

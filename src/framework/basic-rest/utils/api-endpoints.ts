@@ -4,7 +4,7 @@ export const API_ENDPOINTS = {
   LOGOUT: '/logout',
   FORGET_PASSWORD: '/forget-password',
   CATEGORIES: '/filters',
-  CHECKOUT: '/checkout',
+  CHECKOUT: '/create-checkout-session',
   DIETARY: '/dietary.json',
   BRANDS: '/brands.json',
   PRODUCTS: '/items',
