@@ -26,6 +26,10 @@ export default class CustomDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="image/favicon.ico" />
+          <meta
+            name="google-site-verification"
+            content="MyJBbwu9qeBGrNDxuMARelOtF6jCiIHR21EvXoQ6zbE"
+          />
         </Head>
         <body>
           <Main />
