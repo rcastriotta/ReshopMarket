@@ -7,7 +7,7 @@ import Seo from '@components/seo/seo';
 export default function ErrorPage() {
   return (
     <>
-      <Seo title="404" description="Buy new or used items easily." path="404" />
+      <Seo title="404" path="404" />
       <ErrorInformation />
     </>
   );

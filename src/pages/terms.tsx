@@ -13,11 +13,7 @@ export default function TermsPage() {
   const { t } = useTranslation('terms');
   return (
     <>
-      <Seo
-        title="Terms & conditions"
-        description="Buy new or used items easily."
-        path="terms"
-      />
+      <Seo title="Terms & conditions" path="terms" />
       <PageHeroSection heroTitle="text-page-terms-condition" />
       <div className="py-12 lg:py-16 2xl:py-20">
         <Container>

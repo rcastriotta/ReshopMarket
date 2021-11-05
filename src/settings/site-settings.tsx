@@ -7,7 +7,7 @@ import { ESFlag } from '@components/icons/language/ESFlag';
 
 export const siteSettings = {
   name: 'ReshopMarket',
-  description: 'Markeplace for everything',
+  description: 'Markeplace for new and used items',
   author: {
     name: 'Storebor, Inc.',
     websiteUrl: 'https://storebor.com',

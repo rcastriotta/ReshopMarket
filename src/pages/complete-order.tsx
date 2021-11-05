@@ -20,11 +20,7 @@ export default function Order() {
 
   return (
     <>
-      <Seo
-        title="Order"
-        description="Buy new or used items easily."
-        path="complete-order"
-      />
+      <Seo title="Order" path="complete-order" />
       <Divider />
       <Container className="p-20">
         <OrderInformation />

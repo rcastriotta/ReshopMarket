@@ -9,11 +9,7 @@ import Seo from '@components/seo/seo';
 export default function ContactUsPage() {
   return (
     <>
-      <Seo
-        title="Contact Us"
-        description="Buy new or used items easily."
-        path="contact-us"
-      />
+      <Seo title="Contact Us" path="contact-us" />
       <PageContactHeroSection />
       <Container>
         <div className="max-w-[1420px] mx-auto mb-12 lg:mb-14 xl:mb-16">

@@ -11,7 +11,7 @@ import Seo from '@components/seo/seo';
 export default function TermsPage() {
   return (
     <>
-      <Seo title="FAQ" description="Buy new or used items easily." path="faq" />
+      <Seo title="FAQ" path="faq" />
       <PageHeroSection heroTitle="text-page-faq" />
       <Container>
         <div className="flex flex-col max-w-2xl 2xl:max-w-4xl mx-auto py-12 md:py-20">
