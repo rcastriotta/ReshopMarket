@@ -14,7 +14,7 @@ const data = [
       <LocationIcon className="w-12 lg:w-13 xl:w-[60px] h-12 lg:h-13 xl:h-[60px]" />
     ),
     name: 'text-office-location',
-    description: 'text-office-location-details',
+    description: '2756  Quiet Valley Lane, Reseda, California, United States',
   },
 
   {
