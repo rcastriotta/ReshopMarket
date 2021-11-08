@@ -18,6 +18,7 @@ const ProductSeller: React.FC<ProductSellerProps> = ({ seller }) => {
           height="100%"
           objectFit="cover"
           className="rounded-full"
+          unoptimized={true}
         />
       </div>
 

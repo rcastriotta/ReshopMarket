@@ -50,6 +50,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
           loading="eager"
           alt={item.name || 'Product Image'}
           className="object-cover bg-skin-thumbnail"
+          unoptimized={true}
         />
         <div
           className="absolute top-0 start-0 h-full w-full bg-black bg-opacity-30 md:bg-opacity-0 flex justify-center items-center transition duration-200 ease-in-out md:group-hover:bg-opacity-30"

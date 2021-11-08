@@ -38,6 +38,7 @@ const ReviewCard: FC<ReviewProps> = ({ review, className = '' }) => {
             height="100%"
             objectFit="cover"
             className="rounded-full"
+            unoptimized={true}
           />
         </div>
         <span className="noselect ml-3 inline-block ms-[3px] font-semibold">
