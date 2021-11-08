@@ -38,6 +38,7 @@ const CategoryCard: React.FC<Props> = ({ item, href, className }) => {
             height={178}
             quality={100}
             className="object-cover rounded-full"
+            unoptimized={true}
           />
         </div>
         <div
