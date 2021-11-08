@@ -9,13 +9,13 @@ export const siteSettings = {
   name: 'ReshopMarket',
   description: 'Markeplace for new and used items',
   author: {
-    name: 'Storebor, Inc.',
-    websiteUrl: 'https://storebor.com',
+    name: 'ReshopMarket, Inc.',
+    websiteUrl: 'https://reshopmarket.com',
     address: '',
   },
   logo: {
     url: '/assets/images/logo.svg',
-    alt: 'BoroBazar',
+    alt: 'ReshopMarket',
     href: '/',
     width: 128,
     height: 30,
