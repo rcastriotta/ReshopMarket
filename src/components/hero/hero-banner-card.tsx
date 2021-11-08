@@ -24,6 +24,7 @@ const HeroBannerCard: FC<BannerProps> = ({
   const { width } = useWindowSize();
   const { title, description, image } = banner;
   const selectedImage = getImage(width!, image);
+  console.log(selectedImage);
   return (
     <div
       className={cn(
